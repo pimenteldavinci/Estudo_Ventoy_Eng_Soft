@@ -11,12 +11,12 @@ Personas e JTBD
 Persona 1: Karthikgone 
 O usuário Karthikgone é uma pessoa que instala windows 10 e 11 para computadores antigos e modernos. Enquanto ele faz a instalação, é necessário procurar o local em que será instalado o SO, seja HD ou SSD e em algumas situações, depois de instalar e reiniciar a máquina, não apareceu o pendrive com o Ventoy e foi direto para o carregamento de drivers.
 Job to be done (JTBD) - Quando estou instalando Windows em computadores com diferentes configurações de hardware, quero conseguir acessar facilmente meus drivers de armazenamento pelo Ventoy, para realizar as instalações sem precisar procurar arquivos manualmente em outros dispositivos.
-Link persona 1: new plugin option for adding my storage drivers folder path for ISO files #3722
+Link persona 1: https://github.com/ventoy/Ventoy/discussions/3722
 
 Persona 2: wlatendresse
 wlatendresse é um usuário que está experimentando outras distribuições de Linux, seja para estar mais informado a respeito do estado atual dos SO ou para servir como inspiração, incluindo ideias para customizar o próprio desktop. O Ventoy é de grande ajuda para isso, entretanto, ele gostaria de que houvesse um simples texto que mostre qualquer arquivo de texto, pois muitas distribuições possuem nomes e senhas específicas. Para ele, é impossível lembrar de todas elas, então se tivesse um arquivo de texto que armazena todas essas informações junto com a imagem seria melhor.
 Job to be done (JTBD) -  Quando estou experimentando diferentes distribuições Linux pelo Ventoy e preciso consultar informações específicas de cada sistema, como nomes de usuário e senhas, quero visualizar arquivos de texto armazenados no pendrive sem precisar inicializar a imagem ISO, para que eu consiga acessar essas informações rapidamente e facilitar a utilização de diferentes sistemas operacionais.
-link persona 2: Simple text viewer within Ventoy? #3698.
+link persona 2: https://github.com/ventoy/Ventoy/discussions/3698.
 
 Issue: Não é possível inicializar o arquivo de recuperação de imagem do Steam Deck pelo Ventoy.
 Descrição do problema: Um usuário (https://github.com/ventoy/Ventoy/issues/2875) relatou que ao colocar o arquivo de recuperação de imagem do Steam Deck (SteamOS) no drive Ventoy, não carrega apropriadamente e gera um erro quando o drive é conectado e inicializado no console.
@@ -27,7 +27,7 @@ Commits da versão 1.1.18: Suporte de recuperação de imagens para SteamOS. Iss
 https://github.com/ventoy/Ventoy/commit/029a0a9d19eWJh8J6Mx9DrGXKEv3ojKmqw8Cv9pscK.
 
 Mudança arquitetural na versão 1.0.15, agora era possível instalar o Ventoy usando o estilo de partição com GPT (GUID Partition Table). Isso serve para garantir compatibilidade com placas-mãe modernas que usam o firmware UEFI e recursos como o Secure Boot.
-disk_layout_gpt . Ventoy
+https://www.ventoy.net/en/doc_disk_layout_gpt.html
 
 Na versão do Software 1.0.36, houve a introdução da interface gráfica (GUI) chamada VentoyWeb. A interface é baseada em um navegador web voltado para o Sistema Operacional Linux. Até o lançamento da versão 1.0.36, a instalação e gerenciamento do Ventoy no ambiente Linux era somente através da linha de comando Ventoy2Disk.sh. A partir dessa versão, foi disponibilizado o servidor HTTP local (VentoyWeb.sh), que permite o acesso para a interface gráfica pelo navegador, simplificando o processo de instalação e configuração de mídias bootáveis no Linux mais simplificado, semelhante ao utilizado no Windows Ventoy2Disk.exe.
-WebUI . Ventoy
+https://www.ventoy.net/en/doc_linux_webui.html
