@@ -28,7 +28,7 @@ Durante o processo de instalação, ele precisa localizar os dispositivos de arm
 
 **Job to Be Done (JTBD):**
 
-Quando estou instalando o Windows em computadores com diferentes configurações de hardware, quero conseguir acessar facilmente os drivers de armazenamento pelo Ventoy, para realizar as instalações sem precisar procurar arquivos manualmente em outros dispositivos.
+*Quando estou instalando o Windows em computadores com diferentes configurações de hardware, quero conseguir acessar facilmente os drivers de armazenamento pelo Ventoy, para realizar as instalações sem precisar procurar arquivos manualmente em outros dispositivos.*
 
 **Link da discussão:** [Persona 1 — Karthikgone](https://github.com/ventoy/Ventoy/discussions/3722)
 
@@ -42,7 +42,7 @@ Dessa forma, a possibilidade de armazenar arquivos de texto no próprio disposit
 
 **Job to Be Done (JTBD):**
 
-Quando estou experimentando diferentes distribuições Linux pelo Ventoy e preciso consultar informações específicas de cada sistema, como nomes de usuário e senhas, quero visualizar arquivos de texto armazenados no pen drive sem precisar inicializar a imagem ISO, para acessar essas informações rapidamente e facilitar a utilização de diferentes sistemas operacionais.
+*Quando estou experimentando diferentes distribuições Linux pelo Ventoy e preciso consultar informações específicas de cada sistema, como nomes de usuário e senhas, quero visualizar arquivos de texto armazenados no pen drive sem precisar inicializar a imagem ISO, para acessar essas informações rapidamente e facilitar a utilização de diferentes sistemas operacionais.*
 
 **Link da discussão:** [Persona 2 — wlatendresse](https://github.com/ventoy/Ventoy/discussions/3698)
 
