@@ -23,6 +23,7 @@
     * Tooltips para opções avançadas.
 
   **Justificativa**: Ataca os pontos de maior risco de perda de dados e incompatibilidade de boot com o menor esforço no código de interface.
+  
   ---
 
  ## Partes que poderão ser afetadas
