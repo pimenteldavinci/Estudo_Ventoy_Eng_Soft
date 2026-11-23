@@ -8,6 +8,4 @@
 
   **Evidências**: https://github.com/ventoy/Ventoy/discussions/1807
 
-
-  <img src="../Captura .png" alt="" width="500">
   <img src="../Captura2.png" alt="" width="500">
