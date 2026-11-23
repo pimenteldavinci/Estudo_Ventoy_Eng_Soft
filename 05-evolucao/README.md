@@ -18,14 +18,14 @@
 
   **Qual valor será entregue**: Permitir que o usuário compreenda a diferença entre MBR e GPT e o impacto destrutivo do botão “Instalar” antes de formatar e transformar o dispositivo em bootável.
 
-O que ficará de fora: 
-Disponibilidade dos balões de ajuda para todas as opções de linguagens disponíveis;
-Tooltips para opções avançadas.
+  **O que ficará de fora**: 
+    * Disponibilidade dos balões de ajuda para todas as opções de linguagens disponíveis;
+    * Tooltips para opções avançadas.
 
-Justificativa: Ataca os pontos de maior risco de perda de dados e incompatibilidade de boot com o menor esforço no código de interface.
+  **Justificativa**: Ataca os pontos de maior risco de perda de dados e incompatibilidade de boot com o menor esforço no código de interface.
 
-Partes que poderão ser afetadas
-Módulos, classes e pacotes: : O sistema é estruturado em C em grande parte. O impacto restringe-se ao módulo/diretório Ventoy2Disk/, especificamente nos arquivos Ventoy2Disk.c (lógica da janela), Ventoy2Disk.rc (definição visual dos controles) e resource.h (mapeamento de IDs).
-Interface: A janela principal do Ventoy2Disk.exe ganha elementos flutuantes não intrusivos ao passar o cursor do mouse. 
-Componentes: Instanciação do controle padrão TOOLTIPS_CLASS da Win32 API acoplado aos controles PUSHBUTTON e STATIC existentes na IDD_DIALOG1.
-Testes e Documentação: Testes manuais de interface (passar por cima com mouse, verificação de texto com botão habilitado e desabilitado) e atualização do arquivo README.md / ia.md do repositório do trabalho (a documentação oficial em DOC/ fica fora do escopo do MVP) 
+   **Partes que poderão ser afetadas**
+     * Módulos, classes e pacotes: : O sistema é estruturado em C em grande parte. O impacto restringe-se ao módulo/diretório Ventoy2Disk/, especificamente nos arquivos Ventoy2Disk.c (lógica da janela), Ventoy2Disk.rc (definição visual dos controles) e resource.h (mapeamento de IDs).
+     * Interface: A janela principal do Ventoy2Disk.exe ganha elementos flutuantes não intrusivos ao passar o cursor do mouse. 
+     * Componentes: Instanciação do controle padrão TOOLTIPS_CLASS da Win32 API acoplado aos controles PUSHBUTTON e STATIC existentes na IDD_DIALOG1.
+     * Testes e Documentação: Testes manuais de interface (passar por cima com mouse, verificação de texto com botão habilitado e desabilitado) e atualização do arquivo README.md / ia.md do repositório do trabalho (a documentação oficial em DOC/ fica fora do escopo do MVP) 
