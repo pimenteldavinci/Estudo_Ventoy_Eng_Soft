@@ -1,6 +1,6 @@
-**3. Requisitos do Software.**
+## 3. Requisitos do Software.
 
-**3.1 Requisitos Funcionais**
+### 3.1 Requisitos Funcionais
 
 * O sistema deve permitir que o usuário instale vários arquivos de imagem para o SO em um disco USB.
 <img src="../screen_uefi_en.png" alt="Tela UEFI" width="500">
@@ -16,7 +16,7 @@ Link: https://www.ventoy.net/en/index.html
 Link das notas: https://www.ventoy.net/en/plugin_persistence.html
 
 
-**3.2 Requisitos Não Funcionais**
+### 3.2 Requisitos Não Funcionais
 
 * O sistema deve garantir compatibilidade em computadores com o firmware UEFI com Secure Boot Ativado, sem exigir a desativação manual da proteção na BIOS/UEFI da máquina cliente.
 Link: https://github.com/ventoy/Ventoy/blob/master/SecureBoot.md
