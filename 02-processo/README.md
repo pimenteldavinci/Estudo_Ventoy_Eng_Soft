@@ -1,9 +1,49 @@
-Práticas de desenvolvimento observadas:
-O Ventoy é desenvolvido como um projeto de código aberto (open source) hospedado no GitHub, centralizado em um desenvolvedor principal (longpanda) com participação ativa da comunidade. Na prática, observa-se o uso de controle de versão com Git, triagem de problemas e sugestões de novas ISOs por meio de Issues, colaboração externa pontual via Pull Requests (especialmente para traduções e ajustes de compatibilidade) e entregas contínuas por meio de releases frequentes.
+## Práticas e Modelos de Desenvolvimento Observados
 
-O Ventoy é desenvolvido seguindo modelos como:
-Desenvolvimento Incremental: não foi lançado com uma versão já finalizada. A partir de uma versão inicial, novas capacidades (suporte a GPT, interface web no Linux, suporte a novos sistemas como o SteamOS) foram entregues em incrementos sucessivos ao longo das versões. 
-Reuso: Em vez de construir um bootloader do zero, o software utiliza ferramentas já existentes no mercado como o gerenciador de inicialização GRUB2 bastante utilizado pelas distribuições Linux, o firmware de inicialização de rede iPXE, também é utilizado o memdisk mode, uma função de ferramentas de boot que carrega o arquivo de imagem inteiro direto na memória RAM do pc. 
-Apesar de se tratar de um software desenvolvido por uma única pessoa, ele segue as premissas do Manifesto Ágil, como “Software em funcionamento mais do que documentação abrangente” e “Responder a mudanças mais que seguir um plano”. 
+### Práticas de Desenvolvimento
 
-Apesar de alinhar-se aos princípios ágeis, o Ventoy não segue integralmente nenhum modelo formal da Engenharia de Software. Por ser mantido majoritariamente por um único desenvolvedor, não aplica práticas estruturadas de frameworks como Scrum ou Modelo Spotify (inexistindo papéis como Product Owner, Scrum Master, squads ou cerimônias de sprint). Da mesma forma, distancia-se dos modelos Cascata e RUP, pois não adota fases rígidas e sequenciais de levantamento exaustivo de requisitos antes da implementação, evoluindo de maneira orgânica conforme as necessidades reais dos usuários. 
+O Ventoy é um projeto de código aberto (*open source*), hospedado no GitHub e mantido principalmente por seu desenvolvedor principal, conhecido como **longpanda**, com contribuições da comunidade.
+
+Entre as práticas de desenvolvimento observadas, destacam-se:
+
+- **Controle de versão:** utilização do Git para gerenciar o histórico de alterações e a evolução do código-fonte.
+- **Gerenciamento de problemas e sugestões:** utilização da ferramenta Issues do GitHub para registrar erros, relatar problemas de compatibilidade e sugerir novas funcionalidades ou suporte a imagens ISO.
+- **Colaboração da comunidade:** recebimento de contribuições externas por meio de Pull Requests, incluindo traduções, correções e melhorias de compatibilidade.
+- **Entregas contínuas:** disponibilização de novas versões (*releases*) com correções, melhorias e funcionalidades adicionais.
+
+### Modelos de Desenvolvimento Identificados
+
+O desenvolvimento do Ventoy apresenta características de diferentes abordagens da Engenharia de Software, principalmente:
+
+**1. Desenvolvimento Incremental**
+
+O Ventoy apresenta uma evolução gradual, na qual novas funcionalidades e melhorias são incorporadas ao longo de suas versões. Em vez de disponibilizar um produto com todas as funcionalidades desde o início, o projeto evolui por meio de incrementos sucessivos.
+
+Entre os exemplos dessa evolução estão a ampliação do suporte a diferentes estilos de partição, a implementação de uma interface web para Linux e a compatibilidade com novos sistemas operacionais, como o SteamOS.
+
+**2. Reutilização de Software**
+
+Em vez de desenvolver todos os componentes de inicialização do zero, o Ventoy utiliza ferramentas e tecnologias já existentes, aproveitando soluções consolidadas para diferentes necessidades.
+
+Entre os recursos utilizados, destacam-se:
+
+- **GRUB2:** gerenciador de inicialização amplamente utilizado em distribuições Linux.
+- **iPXE:** firmware de inicialização de rede que permite realizar operações de boot por meio de conexões de rede.
+- **Memdisk Mode:** mecanismo que permite carregar uma imagem de disco diretamente na memória RAM, possibilitando sua inicialização a partir desse ambiente.
+
+### Relação com os Princípios Ágeis
+
+Embora seja mantido predominantemente por um único desenvolvedor, o Ventoy apresenta características compatíveis com alguns princípios do Manifesto Ágil, principalmente:
+
+- **Software em funcionamento mais que documentação abrangente:** a evolução do projeto é demonstrada pela disponibilização de versões funcionais, que incorporam melhorias e novas funcionalidades.
+- **Responder a mudanças mais que seguir um plano:** o projeto recebe sugestões, correções e solicitações da comunidade, permitindo que seu desenvolvimento acompanhe necessidades identificadas pelos usuários.
+
+### Modelos e Frameworks Não Identificados
+
+Apesar de apresentar características de desenvolvimento incremental e princípios associados às metodologias ágeis, não há evidências suficientes para afirmar que o Ventoy adota integralmente um modelo formal ou framework específico de desenvolvimento.
+
+Por ser um projeto mantido majoritariamente por um único desenvolvedor, não são observadas publicamente estruturas organizacionais típicas de frameworks como o **Scrum**, que envolvem papéis definidos, como Product Owner e Scrum Master, além de eventos e ciclos de desenvolvimento estruturados.
+
+O projeto também apresenta diferenças em relação ao Modelo Cascata e ao RUP (*Rational Unified Process*), pois sua evolução pública ocorre de maneira contínua, com atualizações e incorporações de funcionalidades ao longo das versões, sem evidências de uma divisão rígida e sequencial de todas as etapas de desenvolvimento.
+
+Dessa forma, o Ventoy pode ser caracterizado como um projeto de desenvolvimento contínuo, com abordagem incremental, reutilização de componentes e participação colaborativa da comunidade.
