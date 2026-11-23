@@ -13,7 +13,7 @@ Link da issue: https://github.com/ventoy/Ventoy/issues/1351
 Link: https://www.ventoy.net/en/index.html
 * Na versão 1.0.11 do Ventoy foi adicionada a funcionalidade de persistência para distribuições como Ubuntu, MX Linux, Linux Mint e Elementary. A funcionalidade permite que alterações feitas durante o modo Live sejam armazenadas em um arquivo de persistência e recuperadas em futuras atualizações. 
 Link das notas: https://www.ventoy.net/en/plugin_persistence.html
-
+---
 
 ## 3.2 Requisitos Não Funcionais
 
@@ -25,7 +25,7 @@ Link:https://github.com/ventoy/Ventoy/releases/tag/v1.0.36
 Link: https://www.ventoy.net/en/doc_start.html
 * A interface gráfica do Ventoy deve ser compatível com os sistemas operacionais e ambientes gráficos Linux suportados pelo projeto, permitindo sua execução adequada.
 Link: https://github.com/ventoy/Ventoy/issues/3406
-
+---
 
 ## 3.3 Histórias de Usuário
 
