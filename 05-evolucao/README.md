@@ -14,7 +14,7 @@
 
   **Benefício esperado**: Redução de erros de configuração por usuários leigos, diminuição da necessidade de consultar tutoriais externos antes de usar o programa e maior segurança antes de executar operações de formatação.
   
-  **Prioridade: Alta (baixo esforço de implementação e impacto direto na usabilidade para novos usuários).
+  **Prioridade**: Alta (baixo esforço de implementação e impacto direto na usabilidade para novos usuários).
   **O que será desenvolvido**: Implementação de balões ao passar o mouse nos 3 controles críticos da tela principal (Instalar, Atualizar e seletor de Estilo de partição: MBR/GPT) apenas para versão Windows em português e inglês.
 
   **Qual valor será entregue**: Permitir que o usuário compreenda a diferença entre MBR e GPT e o impacto destrutivo do botão “Instalar” antes de formatar e transformar o dispositivo em bootável.
