@@ -66,7 +66,7 @@ Link: https://github.com/ventoy/Ventoy/issues/3406
 
 
 
-**Como usuário, gostaria de poder atualizar a versão do Ventoy instalada no meu pen drive pelo software.**
+*Como usuário, gostaria de poder atualizar a versão do Ventoy instalada no meu pen drive pelo software.*
 
 **Cenário 1**: **Dado** que o Pen Drive já esteja com o Ventoy instalado e com uma versão mais antiga e conectado no computador.
 **Quando** clicar na opção “Atualizar”, deve exibir uma mensagem pedindo a confirmação da ação informando que a atualização é segura e que os arquivos ISOs não serão alterados e mostrar uma caixa de carregamento. Ao clicar na opção “Sim”.
