@@ -32,8 +32,8 @@ Link: https://github.com/ventoy/Ventoy/issues/3406
 ### História de Usuário 1 — Inicialização de imagens ISO
 
 **Como** técnico de suporte,  
-**quero** selecionar uma imagem ISO (Debian ou Windows) na lista exibida pela interface de inicialização do Ventoy,  
-**para** carregar o respectivo ambiente de instalação e realizar instalações ou manutenções em computadores.
+**Quero** selecionar uma imagem ISO (Debian ou Windows) na lista exibida pela interface de inicialização do Ventoy,  
+**Para** carregar o respectivo ambiente de instalação e realizar instalações ou manutenções em computadores.
 
 **Cenário 1 — Inicialização da ISO do Debian**
 
@@ -52,8 +52,8 @@ Link: https://github.com/ventoy/Ventoy/issues/3406
 ### História de Usuário 2 — Alternância entre estilos de partição
 
 **Como** estudante de Tecnologia da Informação,  
-**quero** alternar entre os estilos de partição MBR e GPT,  
-**para** compreender e avaliar, na prática, as diferenças entre esses dois formatos.
+**Quero** alternar entre os estilos de partição MBR e GPT,  
+**Para** compreender e avaliar, na prática, as diferenças entre esses dois formatos.
 
 **Cenário 1 — Alteração de GPT para MBR**
 
@@ -72,8 +72,8 @@ Link: https://github.com/ventoy/Ventoy/issues/3406
 ### História de Usuário 3 — Alteração do idioma
 
 **Como** usuário do Ventoy,  
-**quero** alterar o idioma da interface para português brasileiro,  
-**para** facilitar a compreensão e a utilização das funcionalidades do software.
+**Quero** alterar o idioma da interface para português brasileiro,  
+**Para** facilitar a compreensão e a utilização das funcionalidades do software.
 
 **Cenário 1 — Alteração do idioma para português brasileiro**
 
@@ -92,8 +92,8 @@ Link: https://github.com/ventoy/Ventoy/issues/3406
 ### História de Usuário 4 — Atualização do Ventoy
 
 **Como** usuário do Ventoy,  
-**quero** atualizar a versão instalada no meu pen drive diretamente pelo software,  
-**para** manter o dispositivo atualizado sem precisar realizar uma nova instalação e perder os arquivos armazenados.
+**Quero** atualizar a versão instalada no meu pen drive diretamente pelo software,  
+**Para** manter o dispositivo atualizado sem precisar realizar uma nova instalação e perder os arquivos armazenados.
 
 **Cenário 1 — Confirmação da atualização**
 
