@@ -24,6 +24,5 @@ Link:https://github.com/ventoy/Ventoy/releases/tag/v1.0.36
 * O sistema deve possuir um tutorial de como instalar e usar o Ventoy para usuários novos, leigos, etc.
 Link: https://www.ventoy.net/en/doc_start.html
 * A interface gráfica do Ventoy deve ser compatível com os sistemas operacionais e ambientes gráficos Linux suportados pelo projeto, permitindo sua execução adequada.
-
 Link: https://github.com/ventoy/Ventoy/issues/3406
 
