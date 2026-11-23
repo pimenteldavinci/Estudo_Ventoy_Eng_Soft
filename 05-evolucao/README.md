@@ -10,6 +10,3 @@
 
 
   <img src="../Captura.png" alt="" width="500">
-
-  
-  <img src="../Captura2.png" alt="" width="500">
