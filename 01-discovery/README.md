@@ -1,4 +1,4 @@
-## 3.1 Caracterização do Software
+# 1. Caracterização do Software
 
 O **Ventoy** é um software livre que permite criar unidades USB inicializáveis a partir de arquivos nos formatos ISO, WIM, IMG, VHD(x) e EFI. Uma de suas principais vantagens é dispensar a necessidade de formatar o dispositivo USB repetidamente para adicionar novos sistemas operacionais. Basta copiar os arquivos desejados para o dispositivo, organizá-los em diferentes pastas e inicializar o computador por meio dele. Durante a inicialização, o Ventoy apresenta um menu com os arquivos disponíveis, permitindo que o usuário selecione qual deseja executar.
 
@@ -18,7 +18,7 @@ A versão utilizada como referência nesta análise é a **1.1.18**, considerada
 
 ---
 
-## 3.2 Personas e Jobs to Be Done (JTBD)
+## 1.2 Personas e Jobs to Be Done (JTBD)
 
 ### Persona 1 — Karthikgone
 
@@ -48,7 +48,7 @@ Quando estou experimentando diferentes distribuições Linux pelo Ventoy e preci
 
 ---
 
-## 3.3 Análise de Issues, Pull Requests e Commits
+## 1.3 Análise de Issues, Pull Requests e Commits
 
 ### Issue — Suporte à inicialização da imagem de recuperação do Steam Deck
 
