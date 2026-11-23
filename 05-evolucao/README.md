@@ -9,6 +9,7 @@
   **Evidências**: https://github.com/ventoy/Ventoy/discussions/1807
 
   <img src="../Captura2.png" alt="" width="500">
+  
   **Solução proposta**: Adicionar ícones de interrogação (?) ou balões explicativos (tooltips) ao lado das opções principais da tela inicial e do menu Opção (Instalar, Atualizar, MBR, GPT, Secure Boot, Configuração de partição), exibindo em linguagem simples o que cada opção faz e quando utilizá-la. 
 
   **Benefício esperado**: Redução de erros de configuração por usuários leigos, diminuição da necessidade de consultar tutoriais externos antes de usar o programa e maior segurança antes de executar operações de formatação. 
