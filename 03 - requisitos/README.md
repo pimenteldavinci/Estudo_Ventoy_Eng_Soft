@@ -30,8 +30,48 @@ Link: https://github.com/ventoy/Ventoy/issues/3406
 
 **3.3 Histórias de Usuário**
 
-Como técnico de suporte, eu gostaria de selecionar uma imagem ISO (Debian ou Windows) na lista exibida na interface de boot do Ventoy, para que eu possa carregar o respectivo instalador e realizar a instalação ou manutenção offline em qualquer computador. 
+**Como técnico de suporte, eu gostaria de selecionar uma imagem ISO (Debian ou Windows) na lista exibida na interface de boot do Ventoy, para que eu possa carregar o respectivo instalador e realizar a instalação ou manutenção offline em qualquer computador.**
 
 **Cenário 1**: **Dado** que o técnico de suporte possui um pen drive com armazenamento suficiente para ter a versão mais recente do Ventoy e as duas ISOs com suas respectivas versões mais recentes.
 **Quando** o técnico conectar o pen drive em um computador e inicializar via dispositivo USB e selecionar a ISO do Debian.
 **Então** o sistema deve carregar o ambiente de instalação do Debian, permitindo prosseguir com a instalação no disco da máquina. 
+
+**Cenário 2**: **Dado** que o técnico de suporte possui um pen drive com armazenamento suficiente para ter a versão mais recente do Ventoy e as duas ISOs com suas respectivas versões mais recentes.
+**Quando** o técnico conectar o pen drive em um computador e inicializar via dispositivo USB e selecionar a ISO do Windows.
+**Então** o sistema deve carregar o ambiente de instalação do Windows, permitindo prosseguir com a instalação no disco da máquina. 
+
+
+
+**Como estudante de T.I, eu gostaria de alternar entre o estilo de partição de MBR para GPT para avaliar a diferença entre eles na prática.**
+
+**Cenário 1**: **Dado** que o software Ventoy está configurado com o estilo GPT.
+**Quando** acessar as “Opções” e depois em “Estilo da Partição” e selecionar o estilo MBR.
+**Então** deve ser exibido no “Ventoy no Pacote” a opção escolhida MBR no lugar de GPT para a próxima instalação.
+
+**Cenário 1**: **Dado** que o software Ventoy está configurado com o estilo MBR.
+**Quando** acessar as “Opções” e depois em “Estilo da Partição” e selecionar o estilo GPT.
+**Então** deve ser exibido no “Ventoy no Pacote” a opção escolhida GPT no lugar de MBR para a próxima instalação.
+
+
+
+**Como usuário comum do Ventoy, eu gostaria de alterar o idioma para português brasileiro.**
+
+**Cenário 1**: **Dado** que o sistema esteja configurado na linguagem padrão em inglês.
+**Quando** clicar no botão “Language” e selecionar o idioma “Portuguese Brazilian (Português Brasileiro)”.
+**Então** deve ser alterado todas as opções que antes estavam no idioma padrão para português brasileiro.
+
+**Cenário 2**: **Dado** que o sistema esteja configurado no idioma português brasileiro.
+**Quando** o usuário fechar o software e abrir novamente.
+**Então** a alteração de idioma deve ser mantida conforme estava.
+
+
+
+**Como usuário, gostaria de poder atualizar a versão do Ventoy instalada no meu pen drive pelo software.**
+
+**Cenário 1**: **Dado** que o Pen Drive já esteja com o Ventoy instalado e com uma versão mais antiga e conectado no computador.
+**Quando** clicar na opção “Atualizar”, deve exibir uma mensagem pedindo a confirmação da ação informando que a atualização é segura e que os arquivos ISOs não serão alterados e mostrar uma caixa de carregamento. Ao clicar na opção “Sim”.
+**Então** o Pen Drive terá a versão mais recente do Ventoy.
+
+**Cenário 2**: **Dado** que o Pen Drive esteja com uma versão antiga do Ventoy instalada e conectado no computador.
+**Quando** clicar na opção de “Atualizar”, será exibida uma mensagem pedindo a confirmação da atualização, informando que a atualização é segura e que os arquivos ISOs não serão alterados. Ao clicar na opção “Não”.
+**Então** o software retorna à tela inicial sem alterar o dispositivo.
