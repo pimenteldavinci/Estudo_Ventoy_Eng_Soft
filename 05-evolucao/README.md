@@ -6,7 +6,9 @@
   
   **Usuário afetado**: Usuários comuns, iniciantes e estudantes de T.I. que estão criando seus primeiros pendrives bootáveis e não dominam conceitos avançados de particionamento ou firmware.
 
-  **Evidências**: https://github.com/ventoy/Ventoy/discussions/1807
+  **Evidências**:
+   * O usuário relata que a interface é péssima, especialmente em Linux, e usuários novos podem ter dificuldades em utilizar o software.
+   Link: https://github.com/ventoy/Ventoy/discussions/1807
 
   <img src="../Captura2.png" alt="" width="500">
   
