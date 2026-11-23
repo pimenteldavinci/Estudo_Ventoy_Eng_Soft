@@ -1,6 +1,6 @@
-## 6. Ética e Responsabilidade
+## 7. Ética e Responsabilidade
 
-### 6.1 Segurança - Utilização do *Secure Boot*
+### 7.1 Segurança - Utilização do *Secure Boot*
 
 O *Secure Boot* é um recurso de segurança presente no firmware UEFI (*Unified Extensible Firmware Interface*) dos computadores, responsável por verificar a autenticidade dos componentes executados durante o processo de inicialização do sistema. O principal objetivo desse mecanismo é impedir que softwares não autorizados ou maliciosos sejam carregados antes do sistema operacional.
 
@@ -14,7 +14,7 @@ Além disso, o Ventoy disponibiliza duas políticas de segurança sobre esse rec
 
 ---
 
-### 6.2 Licenciamento - Licenças do Software Livre
+### 7.2 Licenciamento - Licenças do Software Livre
 
 O Ventoy é um software de código aberto que utiliza a licença GNU General Public License (GPL), versão 3 ou posteriores (GPLv3 +). Além de possuir códigos pelo próprio projeto, ele também incorpora componentes de outros projetos de código aberto, em que bibliotecas e ferramentas são utilizadas ou modificadas.
 
