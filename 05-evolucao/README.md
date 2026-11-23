@@ -20,8 +20,8 @@
   **Qual valor será entregue**: Permitir que o usuário compreenda a diferença entre MBR e GPT e o impacto destrutivo do botão “Instalar” antes de formatar e transformar o dispositivo em bootável.
 
   **O que ficará de fora**: 
-    * Disponibilidade dos balões de ajuda para todas as opções de linguagens disponíveis;
-    * Tooltips para opções avançadas.
+   * Disponibilidade dos balões de ajuda para todas as opções de linguagens disponíveis;
+   * Tooltips para opções avançadas.
 
   **Justificativa**: Ataca os pontos de maior risco de perda de dados e incompatibilidade de boot com o menor esforço no código de interface.
   
