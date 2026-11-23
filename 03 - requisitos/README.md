@@ -17,12 +17,16 @@ Link das notas: https://www.ventoy.net/en/plugin_persistence.html
 
 **3.2 Requisitos Não Funcionais**
 
-* O sistema deve garantir compatibilidade em computadores com o firmware UEFI com Secure Boot Ativado, sem exigir a desativação manual da proteção na BIOS/UEFI da máquina cliente. 
+* O sistema deve garantir compatibilidade em computadores com o firmware UEFI com Secure Boot Ativado, sem exigir a desativação manual da proteção na BIOS/UEFI da máquina cliente.
+
 Link: https://github.com/ventoy/Ventoy/blob/master/SecureBoot.md
 * O sistema deve estruturar e alinhar as estruturas de partições de USB em blocos de 4KB por padrão, para garantir otimização na instalação dos dispositivos.
+  
 Link:https://github.com/ventoy/Ventoy/releases/tag/v1.0.36
 * O sistema deve possuir um tutorial de como instalar e usar o Ventoy para usuários novos, leigos, etc.
+  
 Link: https://www.ventoy.net/en/doc_start.html
-* A interface gráfica do Ventoy deve ser compatível com os sistemas operacionais e ambientes gráficos Linux suportados pelo projeto, permitindo sua execução adequada. 
+* A interface gráfica do Ventoy deve ser compatível com os sistemas operacionais e ambientes gráficos Linux suportados pelo projeto, permitindo sua execução adequada.
+  
 Link: https://github.com/ventoy/Ventoy/issues/3406
 
