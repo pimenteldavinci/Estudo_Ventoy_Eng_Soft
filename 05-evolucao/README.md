@@ -7,6 +7,7 @@
   **Usuário afetado**: Usuários comuns, iniciantes e estudantes de T.I. que estão criando seus primeiros pendrives bootáveis e não dominam conceitos avançados de particionamento ou firmware.
 
   **Evidências**: https://github.com/ventoy/Ventoy/discussions/1807
-  
-    <img src="../Captura.png" alt="" width="500">
-    <img src="../Captura2.png" alt="" width="500">
+
+
+  <img src="../Captura.png" alt="" width="500">
+  <img src="../Captura2.png" alt="" width="500">
