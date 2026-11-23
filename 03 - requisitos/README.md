@@ -26,3 +26,9 @@ Link: https://www.ventoy.net/en/doc_start.html
 * A interface gráfica do Ventoy deve ser compatível com os sistemas operacionais e ambientes gráficos Linux suportados pelo projeto, permitindo sua execução adequada.
 Link: https://github.com/ventoy/Ventoy/issues/3406
 
+**3.3 Histórias de Usuário**
+Como técnico de suporte, eu gostaria de selecionar uma imagem ISO (Debian ou Windows) na lista exibida na interface de boot do Ventoy, para que eu possa carregar o respectivo instalador e realizar a instalação ou manutenção offline em qualquer computador. 
+
+**Cenário 1**: **Dado** que o técnico de suporte possui um pen drive com armazenamento suficiente para ter a versão mais recente do Ventoy e as duas ISOs com suas respectivas versões mais recentes.
+**Quando** o técnico conectar o pen drive em um computador e inicializar via dispositivo USB e selecionar a ISO do Debian.
+**Então** o sistema deve carregar o ambiente de instalação do Debian, permitindo prosseguir com a instalação no disco da máquina. 
