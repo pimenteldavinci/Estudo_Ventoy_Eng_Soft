@@ -1,7 +1,7 @@
 **3. Requisitos do Software.**
 
 * O sistema deve permitir que o usuário instale vários arquivos de imagem para o SO em um disco USB.
- <img src="../screen_uefi_en.png" alt="Tela UEFI" width="500">
+- <img src="../screen_uefi_en.png" alt="Tela UEFI" width="500">
 * O sistema deve permitir que o usuário instale o Ventoy em diversos drivers USB.
 Link: https://www.ventoy.net/en/index.html?utm_source=chatgpt.com
 * O sistema deve permitir que seja possível realizar instalação automática de distribuições Ubuntu Server na versão 20.x ou superiores por meio de arquivos de configuração baseados em cloud-init.
